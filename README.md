@@ -58,14 +58,14 @@ python ./video_modality/landmarks_predict.py
 
 #### Text Modality
 
-- Fit and predict traditional text model.
+- Fit and predict the traditional text model.
 ~~~bash
 
 jupyter notebook ./text_modality/text_modality.ipynb
 
 ~~~
 
-- Fit and predict traditional text model.
+- Fit and predict the sequential text model.
 ~~~bash
 
 python ./text_modality/text_modality.py
