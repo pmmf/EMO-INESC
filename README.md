@@ -58,8 +58,26 @@ python ./video_modality/landmarks_predict.py
 
 #### Text Modality
 
+- Fit and predict traditional text model.
+~~~bash
 
+jupyter notebook ./text_modality/text_modality.ipynb
 
+~~~
+
+- Fit and predict traditional text model.
+~~~bash
+
+python ./text_modality/text_modality.py
+
+~~~
+
+#### Ensemble
+~~~bash
+
+python ./ensemble/models_ensemble.py
+
+~~~
 
 ### Library Versions
 #### Video Modality
