@@ -30,7 +30,7 @@ python ./preprocessing/face_detection.py
 
 ~~~
 
-- Selection of the video sequence length and the number of frames per video.
+- Selection of the video sequence length and number of frames per video to be used to design the models..
 ~~~bash
 
 python ./preprocessing/face_channel.py
