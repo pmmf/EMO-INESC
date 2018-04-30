@@ -9,24 +9,31 @@ The implemented methodology is an ensemble of several models from two distinct m
 
 1. Pre-processing:
 
-- Conversion of the videos into image frames.
+- Convert videos to image frames.
 ~~~bash
 
-python video2frames.py
+python ./preprocessing/video2frames.py
+
+~~~
+
+- Read the annotations file and create an annotation file for each frame.
+~~~bash
+
+python ./preprocessing/get_annotations.py
 
 ~~~
 
 - Face and facial landmarks detection.
 ~~~bash
 
-python pre-process.py
+python ./preprocessing/face_detection.py
 
 ~~~
 
 - Selection of the video sequence length and the number of frames per video.
 ~~~bash
 
-python face_channel.py
+python ./preprocessing/face_channel.py
 
 ~~~
 
@@ -34,8 +41,8 @@ python face_channel.py
 2. Face model fitting and prediction.
 ~~~bash
 
-python face_fit.py
-python face_predict.py
+python ./video_modality/face_fit.py
+python ./video_modality/face_predict.py
 
 ~~~
 
@@ -43,8 +50,8 @@ python face_predict.py
 3. Facial landmarks model fitting and prediction.
 ~~~bash
 
-python landmarks_fit.py
-python landmarks_predict.py
+python ./video_modality/landmarks_fit.py
+python ./video_modality/landmarks_predict.py
 
 ~~~
 
