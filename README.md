@@ -10,6 +10,7 @@ The implemented methodology is an ensemble of several models from two distinct m
 1. Pre-processing:
 
 - Convert videos to image frames.
+
 ~~~bash
 
 python ./preprocessing/video2frames.py
@@ -96,5 +97,3 @@ python ./ensemble/models_ensemble.py
 - SciPy v1.0.0
 - Natural Language Toolkit — NLTK v3.2.5
 - TextBlob v0.15.1
-
-### References
