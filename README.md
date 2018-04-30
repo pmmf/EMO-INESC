@@ -92,5 +92,9 @@ python ./ensemble/models_ensemble.py
 #### Text Modality
 - Keras v2.1.1
 - Tensorflow v1.4
+- scikit-learn v0.19.1
+- SciPy v1.0.0
+- Natural Language Toolkit — NLTK v3.2.5
+- TextBlob v0.15.1
 
 ### References
